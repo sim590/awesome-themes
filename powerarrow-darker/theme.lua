@@ -1,8 +1,8 @@
 --[[
-                                             
-     Powerarrow Darker Awesome WM config 2.0 
-     github.com/copycat-killer               
-                                             
+
+     Powerarrow Darker Awesome WM config 2.0
+     github.com/copycat-killer
+
 --]]
 
 local awful = require("awful")
@@ -56,8 +56,12 @@ theme.border_width                  = "1"
 theme.border_normal                 = "#3F3F3F"
 theme.border_focus                  = "#7F7F7F"
 theme.border_marked                 = "#CC9393"
+
+--{{{ Titlebar
 theme.titlebar_bg_focus             = "#FFFFFF"
 theme.titlebar_bg_normal            = "#FFFFFF"
+--}}}
+
 theme.taglist_fg_focus              = "#D8D782"
 theme.tasklist_bg_focus             = "#1A1A1A"
 theme.tasklist_fg_focus             = "#D8D782"
@@ -112,8 +116,8 @@ theme.widget_mail                   = themedir .. "/icons/mail.png"
 theme.widget_mail_on                = themedir .. "/icons/mail_on.png"
 
 theme.tasklist_disable_icon         = true
-theme.tasklist_floating             = ""
-theme.tasklist_maximized_horizontal = ""
-theme.tasklist_maximized_vertical   = ""
+theme.tasklist_floating             = "↯"
+theme.tasklist_maximized_horizontal = "⇔"
+theme.tasklist_maximized_vertical   = "⇕"
 
 return theme
